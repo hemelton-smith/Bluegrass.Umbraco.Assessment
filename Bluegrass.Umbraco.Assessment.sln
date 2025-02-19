@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bluegrass.Umbraco.Assessment", "Bluegrass.Umbraco.Assessment\Bluegrass.Umbraco.Assessment.csproj", "{4FC09BEF-F65A-46C9-AFD1-81D5DB2D2830}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Bluegrass.Umbraco.Assessment.Database", "Bluegrass.Umbraco.Assessment.Database\Bluegrass.Umbraco.Assessment.Database.sqlproj", "{6D656D39-BBB7-4EE4-9223-B8BA625983C6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,12 @@ Global
 		{4FC09BEF-F65A-46C9-AFD1-81D5DB2D2830}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4FC09BEF-F65A-46C9-AFD1-81D5DB2D2830}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4FC09BEF-F65A-46C9-AFD1-81D5DB2D2830}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D656D39-BBB7-4EE4-9223-B8BA625983C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D656D39-BBB7-4EE4-9223-B8BA625983C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D656D39-BBB7-4EE4-9223-B8BA625983C6}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6D656D39-BBB7-4EE4-9223-B8BA625983C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D656D39-BBB7-4EE4-9223-B8BA625983C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D656D39-BBB7-4EE4-9223-B8BA625983C6}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
